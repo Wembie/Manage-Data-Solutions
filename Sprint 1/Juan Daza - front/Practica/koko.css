@@ -1,0 +1,141 @@
+/*Estilos generales*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(254, 239, 221);
+    margin: 1;
+    padding: 1;/*tamaños*/
+    font-size: 15px;
+}
+
+header, nav, main, footer{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*encabezado*/
+header{
+    background-color: rgb(255, 188, 87);
+    color: rgb(163, 87, 0);
+    text-align: center;
+}
+
+/*logo y campo de busqueda*/
+.logo-search-container{
+    display: flex;
+    flex-direction: column; /*cambio de direccion de elementos de la columna*/
+    align-items: center;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo-container img{
+    width: 170px;
+    height: auto;
+    margin-right: 17px;
+}
+
+
+/*nombre PAGINA*/
+h1{
+    font-size: 47px;
+    margin: 5px;
+}
+
+/*campo de busqueda*/
+.search-container{
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.search-form{
+    display: flex;
+    align-items: center;
+}
+
+.search-form input [type="text"]{
+    padding: 13px;
+    font-size: 15px;
+}
+
+.search-form button {
+    padding: 10px 15px;
+    background-color: rgb(163, 87, 0);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+
+}
+
+/*Navegacion*/
+nav, ul{
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(163, 87, 0);
+    border-radius: 10px;
+    padding: 20px ;
+}
+nav, ul, li{
+    margin:  10px;
+    position: relative;
+}
+
+nav, ul, li::before{
+    position: absolute;
+    top: 25%;
+    left: 11%;
+    transform: translate(13%);
+    width: 0;
+    height: 0%;
+    background-color: rgb(255, 188, 87);
+    transition: width 0.4s ease;
+}
+
+nav, ul, li:hover:before{
+    width: 10%;
+}
+nav, a{
+    text-decoration: none;
+    color: rgb(163, 87, 0);
+    font-weight: bold;
+}
+/*contenido principal*/
+main{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+section{
+    flex: 1;
+    margin: 0 15px;
+}
+
+.img-01{
+    width: 270px;
+    height: 250px;
+    border-radius: 30px;
+transform: scale(110%);
+}
+
+.img-02{
+    width: 370px;
+    height: 250px;
+    border-radius: 30px;
+    transform: scale(110%);
+}
+
+/*pie de paguina*/
+footer{
+    background-color: rgb(163, 87, 0);
+    color: azure;
+    text-align: center;
+    clear: both;
+}
