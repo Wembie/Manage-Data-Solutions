@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EC9D56E7-36ED-BA55-3F2D-09886B67C9CC" name="Encargados">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:11:06 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_encargado" id="C8742C93-DD6E-ABC1-787D-30572D704BBD">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:21:54 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="8EBC6A01-3DD1-C5BB-0EE1-AF05B3430A47">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:18:24 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="16AB5429-18DF-77BF-6845-A47DD5F976EF">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:19:55 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rol" id="56A266C7-915C-73D0-45BB-D29796B6A2F0">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:44:22 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comentario" id="6EF2B3E7-4A23-E59E-39DD-4A32723B78D0">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-10-03 03:20:59 UTC</createdTime>
+<generatorID>F1638D23-435D-98D1-2B7B-93E8DF4FBD6C</generatorID>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<referedAttribute>C1DD663D-3A37-79F2-74B8-7141C7CCC367</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99A9BECC-F548-15AD-26BB-33CA28D0F5B5" name="encargados PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:19:53 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C8742C93-DD6E-ABC1-787D-30572D704BBD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

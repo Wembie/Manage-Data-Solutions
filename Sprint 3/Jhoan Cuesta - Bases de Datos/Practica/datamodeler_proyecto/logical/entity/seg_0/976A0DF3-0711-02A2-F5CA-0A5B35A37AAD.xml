@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="976A0DF3-0711-02A2-F5CA-0A5B35A37AAD" name="Docuemntos">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:24:31 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_doc" id="B4E1E0A9-ECB8-D6C2-ACD7-4FB44AD3C21A">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:24:58 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="7B79A933-CC5E-E460-4EA4-9C7C44581A4F">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:25:20 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="F63AC7CB-7885-17FC-9D13-C338A286D166">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:25:54 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripción" id="02E0260D-6080-C927-CDCF-C7B22E5C0E78">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-10-03 03:04:10 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_creación" id="54C3D9DB-13C8-6711-C0FC-58355BC7789A">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-10-03 03:04:42 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B8312339-21E5-EFAC-CD1A-EC944B1486E9" name="Docuemntos PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:25:15 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B4E1E0A9-ECB8-D6C2-ACD7-4FB44AD3C21A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

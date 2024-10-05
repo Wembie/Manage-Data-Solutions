@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="431DF768-5E94-92D8-A264-0B7FBEE2F342" name="Usuarios">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:36:51 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="15EA71D1-15B8-C405-F6B2-35396A5F0FD7">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:38:08 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombres" id="8AF61FE7-D1AE-1487-69AA-BCD753D6BB92">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:36:58 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido" id="B7727324-926D-63B4-7969-74B287EE7BDD">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:38:11 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" Correo" id="748D9B13-BB7E-205C-9C81-CFF4E37F0CD1">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:38:16 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hash Contraseña" id="8360FDF4-D635-1C60-D17E-834BAEDCE63F">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:38:26 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fec. registro" id="4D561229-559C-5405-E112-084AA01CA034">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:38:35 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9E01D4A1-A6DA-0E5B-BD97-EDFFF51371FE" name="Usuarios PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-29 20:42:54 UTC</createdTime>
+<ownerDesignName>datamodeler_proyecto</ownerDesignName>
+<engineerTo>
+<item key="961E2FDC-2FD7-77D9-F5DE-858DFCACBEF0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>748D9B13-BB7E-205C-9C81-CFF4E37F0CD1</attributeRef>
+<attributeRef>15EA71D1-15B8-C405-F6B2-35396A5F0FD7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
