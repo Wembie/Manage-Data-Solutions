@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.e344ca90.css","mappings":"AAAA,MACI,wBAA+B,CAC/B,aAAgB,CAChB,YACJ","sources":["task.css"],"sourcesContent":[".card {\n    background-color:rgb(32, 0, 66);\n    color: aliceblue;\n    padding: 50px;\n}"],"names":[],"sourceRoot":""}
