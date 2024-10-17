@@ -73,7 +73,7 @@ Criterios de Aceptación:
 * Asegurarse de que el esquema esté normalizado y sea eficiente para operaciones de carga y lectura.
 * Realizar pruebas de carga en la base de datos para identificar cuellos de botella y verificar el rendimiento.
 
-Duración de Trabajo: Hasta 31/10/2024 11:59 pm. (Si acaban antes lo pueden enviar antes, y asi entregarles el siguiente trabajo para hacerlo) RECUERDEN SUBIR TODO A GITHUB
+Duración de Trabajo: Hasta 22/10/2024 11:59 pm. (Si acaban antes lo pueden enviar antes, y asi entregarles el siguiente trabajo para hacerlo) RECUERDEN SUBIR TODO A GITHUB
 
 Entregables: Me deberian enviar por este medio o por privado los avances que tuvieron cada uno. (GITHUB)
 
