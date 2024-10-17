@@ -28,3 +28,70 @@ Optimización de Consultas: Analizar y mejorar las consultas SQL, añadir índic
 Documentación y Configuración: Documentar el proceso de configuración de la base de datos, incluyendo detalles de roles, permisos y configuración de índices, para facilitar futuras modificaciones o ampliaciones.
 
 PD: SI le meten bellaco en 2 semanas si lo acaban (SI NO AVISEN CON TIEMPO PARA YO HACERLO)
+
+-------------------------------------------------------------------------------------------
+
+Para el despliegue: 
+
+Backend: FastAPI
+
+Recomendación: Railway
+
+Descripción: Railway permite el despliegue fácil de aplicaciones con FastAPI y otros frameworks. Puedes enlazar tu repositorio de GitHub, y Railway se encargará de la infraestructura y el despliegue.
+
+Características gratuitas: Railway ofrece 500 horas de uso gratis cada mes, suficiente para empezar y para proyectos en desarrollo.
+
+Configuración: Se necesita configurar las variables de entorno y los ajustes del servidor para conectar con la base de datos y el frontend.
+
+Railway
+
+Alternativa: Render
+
+Descripción: Render es otro servicio que permite el despliegue de aplicaciones FastAPI de manera gratuita. También se conecta fácilmente con GitHub.
+
+Características gratuitas: 750 horas gratis por mes para aplicaciones web.
+
+Configuración: Al igual que Railway, permite añadir variables de entorno para conectar con la base de datos y gestionar configuraciones específicas.
+
+Render
+
+Frontend: React + Tailwind CSS
+
+Recomendación: Vercel
+
+Descripción: Vercel es ideal para proyectos frontend en React. Es gratuito y permite integraciones automáticas con GitHub, GitLab, y Bitbucket.
+
+Características gratuitas: Despliegues ilimitados para proyectos personales y algunas funcionalidades avanzadas.
+
+Configuración: Puedes hacer el despliegue directamente desde GitHub, y Vercel proporciona la URL pública y el entorno donde puedes gestionar variables de conexión.
+
+Vercel
+
+Alternativa: Netlify
+
+Descripción: Netlify es similar a Vercel y también ofrece una capa gratuita generosa. Permite el despliegue directo desde repositorios de Git y se integra con frameworks como React.
+
+Características gratuitas: Despliegues continuos, SSL gratuito, y URLs personalizadas.
+
+Netlify
+
+Base de Datos: SQLite
+
+Recomendación: Supabase
+
+Descripción: Aunque es más común usar Postgres, Supabase es una buena opción para empezar con bases de datos en la nube. Ofrece herramientas para consultas y es compatible con una gran variedad de aplicaciones.
+
+Características gratuitas: Hasta 500 MB de almacenamiento, perfecto para prototipos y desarrollo.
+
+Configuración: Supabase ofrece una interfaz web donde puedes importar datos y configurar roles y permisos para el backend.
+
+Supabase
+
+Alternativa: Heroku
+
+Descripción: Heroku ofrece PostgreSQL gratuito, que puede ser una alternativa a SQLite para un entorno de producción. 
+Permite hasta 10,000 filas de datos y conexiones limitadas para aplicaciones pequeñas.
+
+Características gratuitas: Puedes integrar una base de datos Postgres fácilmente y conectarla al backend en Railway o Render.
+
+Heroku
