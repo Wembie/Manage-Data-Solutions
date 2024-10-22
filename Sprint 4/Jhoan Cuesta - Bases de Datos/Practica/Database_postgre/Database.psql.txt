@@ -1,0 +1,72 @@
+--
+-- Archivo generado con SQLiteStudio v3.4.4 el jue. oct. 17 21:04:02 2024
+--
+-- Codificaci�n de texto usada: System
+--
+PRAGMA foreign_keys = off;
+BEGIN TRANSACTION;
+
+-- Tabla: Comentarios
+CREATE TABLE IF NOT EXISTS Comentarios (
+    ID_comentario    INTEGER PRIMARY KEY AUTOINCREMENT,
+    Comentario       TEXT,
+    Fecha_comentario REAL,
+    ID_solicitud     INTEGER REFERENCES Solicitud (ID_solicitud),
+    ID_encargado     INTEGER REFERENCES Encargados (ID_encargado) 
+);
+
+
+-- Tabla: Datos_usuario
+CREATE TABLE IF NOT EXISTS Datos_usuario (
+    Usuario    NUMERIC REFERENCES Usuarios (ID),
+    Contrase�a TEXT
+);
+
+
+-- Tabla: Documentos
+CREATE TABLE IF NOT EXISTS Documentos (
+    ID_documento   INTEGER PRIMARY KEY AUTOINCREMENT
+                           UNIQUE,
+    Tipo           BLOB,
+    Nombre         TEXT,
+    Descripci�n    TEXT,
+    Fecha_creaci�n REAL
+);
+
+
+-- Tabla: Encargados
+CREATE TABLE IF NOT EXISTS Encargados (
+    ID_encargado INTEGER PRIMARY KEY AUTOINCREMENT,
+    Nombres      TEXT,
+    Apellido     TEXT,
+    Rol          TEXT
+);
+
+
+-- Tabla: Solicitud
+CREATE TABLE IF NOT EXISTS Solicitud (
+    ID_solicitud    INTEGER PRIMARY KEY AUTOINCREMENT,
+    ID_user         INTEGER REFERENCES Usuarios (ID),
+    ID_documento    INTEGER REFERENCES Documentos (ID_documento),
+    ID_encargado    INTEGER REFERENCES Encargados (ID_encargado),
+    Fecha_solicitud REAL,
+    Estado          TEXT    DEFAULT Finalizado
+                            DEFAULT Proceso
+                            DEFAULT Entregado
+);
+
+
+-- Tabla: Usuarios
+CREATE TABLE IF NOT EXISTS Usuarios (
+    ID              INTEGER PRIMARY KEY AUTOINCREMENT
+                            UNIQUE,
+    Nombres         TEXT,
+    Apellido        TEXT,
+    Correo          TEXT,
+    Fecha_registro  REAL,
+    contrase�a_hash TEXT
+);
+
+
+COMMIT TRANSACTION;
+PRAGMA foreign_keys = on;
