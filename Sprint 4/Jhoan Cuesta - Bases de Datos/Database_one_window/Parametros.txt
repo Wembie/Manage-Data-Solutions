@@ -1,0 +1,15 @@
+SERVER: NANO
+
+Host: aws-0-us-west-1.pooler.supabase.com
+
+Database name: postgres
+
+Port: 6543
+
+User: postgres.ztpekbdnhfibpkzkgjch
+
+Password: managedatasolutions
+
+String connection: postgresql://postgres.ztpekbdnhfibpkzkgjch:[managedatasolutions]@aws-0-us-west-1.pooler.supabase.com:6543/postgres
+
+
