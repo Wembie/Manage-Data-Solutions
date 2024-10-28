@@ -1,5 +1,0 @@
--- Otorgar permisos de lectura y escritura en todas las tablas del esquema 'public' al usuario ya existente
-GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO maicol_back;
-
--- Asegurar que futuros permisos de lectura/escritura se apliquen a nuevas tablas
-ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT, INSERT, UPDATE, DELETE ON TABLES TO maicol_back;
