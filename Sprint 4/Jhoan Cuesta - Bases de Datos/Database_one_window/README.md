@@ -26,7 +26,8 @@ La base de datos está compuesta por las siguientes tablas:
 | Correo           | TEXT          | Correo electrónico del usuario       |
 | Fecha_registro   | TIMESTAMP     | Fecha de registro del usuario        |
 
-  Claves  :   Clave primaria  : `ID`
+  Claves  :   
+  Clave primaria  : `ID`
 
     2. Tabla: Encargados
 | Columna          | Tipo de Dato  | Descripción                          |
@@ -36,8 +37,8 @@ La base de datos está compuesta por las siguientes tablas:
 | Apellido         | TEXT          | Apellido del encargado               |
 | Rol              | TEXT          | Rol del encargado en el sistema      |
 
-  Claves  :
--   Clave primaria  : `ID`
+  Claves  :   
+  Clave primaria  : `ID`
 
     3. Tabla: Documentos
 | Columna          | Tipo de Dato  | Descripción                          |
@@ -48,8 +49,8 @@ La base de datos está compuesta por las siguientes tablas:
 | Descripción      | TEXT          | Descripción del documento            |
 | Fecha_creación   | TIMESTAMP     | Fecha de creación del documento      |
 
-  Claves  :
--   Clave primaria  : `ID`
+  Claves  :   
+  Clave primaria  : `ID`
 
     4. Tabla: Datos_usuario
 | Columna          | Tipo de Dato  | Descripción                          |
@@ -57,8 +58,8 @@ La base de datos está compuesta por las siguientes tablas:
 | Usuario          | INTEGER       | Identificador del usuario (foránea)  |
 | Contraseña       | TEXT          | Contraseña del usuario               |
 
-  Claves  :
--   Clave foránea  : `Usuario` que referencia `Usuarios(ID)`
+  Claves  :   
+  Clave foránea  : `Usuario` que referencia `Usuarios(ID)`
 
    5. Tabla: Solicitudes
 | Columna          | Tipo de Dato  | Descripción                                  |
@@ -70,12 +71,12 @@ La base de datos está compuesta por las siguientes tablas:
 | Fecha_solicitud  | TIMESTAMP     | Fecha de la solicitud                        |
 | Estado           | TEXT          | Estado de la solicitud                      |
 
-  Claves:
--Clave primaria: `ID`
-- Claves foráneas: 
-  - `ID_usuario` que referencia `Usuarios(ID)`
-  - `ID_documento` que referencia `Documentos(ID)`
-  - `ID_encargado` que referencia `Encargados(ID)`
+  Claves: 
+  Clave primaria: `ID` 
+  Claves foráneas: 
+  `ID_usuario` que referencia `Usuarios(ID)`
+  `ID_documento` que referencia `Documentos(ID)`
+  `ID_encargado` que referencia `Encargados(ID)`
 
    6. Tabla: Comentarios
 | Columna           | Tipo de Dato  | Descripción                                      |
@@ -87,10 +88,10 @@ La base de datos está compuesta por las siguientes tablas:
 | ID_encargado      | INTEGER       | Clave foránea que referencia `Encargados(ID)`     |
 
   Claves:
--   Clave primaria  : `ID`
--   Claves foráneas  : 
-  - `ID_solicitud` que referencia `Solicitudes(ID)`
-  - `ID_encargado` que referencia `Encargados(ID)`
+  Clave primaria  : `ID`
+  Claves foráneas  : 
+  `ID_solicitud` que referencia `Solicitudes(ID)`
+  `ID_encargado` que referencia `Encargados(ID)`
 
    Relaciones entre tablas
 -   Usuarios   y   Solicitudes  : Un usuario puede realizar múltiples solicitudes.
