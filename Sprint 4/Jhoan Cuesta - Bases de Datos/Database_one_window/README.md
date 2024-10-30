@@ -61,7 +61,7 @@ La base de datos está compuesta por las siguientes tablas:
   Claves  :   
   Clave foránea  : `Usuario` que referencia `Usuarios(ID)`
 
-   5. Tabla: Solicitudes
+    5. Tabla: Solicitudes
 | Columna          | Tipo de Dato  | Descripción                                  |
 |------------------|---------------|----------------------------------------------|
 | ID               | SERIAL        | Clave primaria, identificador único          |
@@ -78,7 +78,7 @@ La base de datos está compuesta por las siguientes tablas:
   `ID_documento` que referencia `Documentos(ID)`
   `ID_encargado` que referencia `Encargados(ID)`
 
-   6. Tabla: Comentarios
+    6. Tabla: Comentarios
 | Columna           | Tipo de Dato  | Descripción                                      |
 |-------------------|---------------|--------------------------------------------------|
 | ID                | SERIAL        | Clave primaria, identificador único              |
