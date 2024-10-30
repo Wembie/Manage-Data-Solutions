@@ -26,8 +26,7 @@ La base de datos está compuesta por las siguientes tablas:
 | Correo           | TEXT          | Correo electrónico del usuario       |
 | Fecha_registro   | TIMESTAMP     | Fecha de registro del usuario        |
 
-  Claves  :
--   Clave primaria  : `ID`
+  Claves  :   Clave primaria  : `ID`
 
     2. Tabla: Encargados
 | Columna          | Tipo de Dato  | Descripción                          |
