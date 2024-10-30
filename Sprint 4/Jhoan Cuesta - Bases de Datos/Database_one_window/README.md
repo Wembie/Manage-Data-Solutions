@@ -27,7 +27,7 @@ La base de datos está compuesta por las siguientes tablas:
 | Fecha_registro   | TIMESTAMP     | Fecha de registro del usuario        |
 
   Claves  :   
-  Clave primaria  : `ID`
+  - Clave primaria  : `ID`
 
     2. Tabla: Encargados
 | Columna          | Tipo de Dato  | Descripción                          |
