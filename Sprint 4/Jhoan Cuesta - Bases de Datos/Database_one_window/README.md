@@ -27,7 +27,7 @@ La base de datos está compuesta por las siguientes tablas:
 | Fecha_registro   | TIMESTAMP     | Fecha de registro del usuario        |
 
   Claves  :   
-  - Clave primaria  : `ID`
+  Clave primaria  : `ID`
 
     2. Tabla: Encargados
 | Columna          | Tipo de Dato  | Descripción                          |
@@ -74,9 +74,9 @@ La base de datos está compuesta por las siguientes tablas:
   Claves: 
   Clave primaria: `ID` 
   Claves foráneas: 
-  `ID_usuario` que referencia `Usuarios(ID)`
-  `ID_documento` que referencia `Documentos(ID)`
-  `ID_encargado` que referencia `Encargados(ID)`
+  `ID_usuario` que referencia `Usuarios(ID)` //
+  `ID_documento` que referencia `Documentos(ID)` //
+  `ID_encargado` que referencia `Encargados(ID)` //
 
     6. Tabla: Comentarios
 | Columna           | Tipo de Dato  | Descripción                                      |
