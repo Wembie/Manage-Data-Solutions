@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf0dbf81.css",
+    "main.js": "/static/js/main.223e2d38.js",
+    "static/media/Nombrepaguina.png": "/static/media/Nombrepaguina.9061ca5cacdd968b6c75.png",
+    "static/media/Fondopaguina.png": "/static/media/Fondopaguina.ab545adf843437d84ff3.png",
+    "index.html": "/index.html",
+    "main.bf0dbf81.css.map": "/static/css/main.bf0dbf81.css.map",
+    "main.223e2d38.js.map": "/static/js/main.223e2d38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf0dbf81.css",
+    "static/js/main.223e2d38.js"
+  ]
+}
